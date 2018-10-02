@@ -1,0 +1,270 @@
+.allTripCards {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 50px;
+}
+
+.wholeTripCard {
+  position: relative;
+  width: 310px;
+  height: 180px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.image {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgb(89, 87, 87);
+}
+
+.wholeTripCard:hover .overlay {
+  opacity: 1;
+}
+
+.potripOverlay {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.wholeTripCard:hover {
+  cursor: pointer;
+}
+
+.potripName {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.potripDesc {
+  font-size: 1.5em;
+  font-family: serif;
+  text-align: center;
+  color: whitesmoke;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* .tripFront {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(138, 138, 138);
+  padding: 3px;
+}
+.tripName {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.tripDesc {
+  font-size: 1.1em;
+  font-family: serif;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  padding: 5px;
+}
+
+.tripPic {
+  max-height: 200px;
+  max-width: 300px;
+} */
+
+.formgroup {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  flex-direction: column;
+}
+.btn {
+  width: 80px;
+  margin: auto;
+}
+.formcontrol {
+  width: 300px;
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+}
+
+.biggestForm {
+  height: 100px;
+}
+
+.formTitle {
+  position: relative;
+  margin: auto;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px;
+  text-align: center;
+  color: rgb(89, 87, 87);
+}
+label {
+  font-size: 1em;
+  font-family: serif;
+  margin-bottom: 15px;
+  text-align: center;
+  color: rgb(89, 87, 87);
+}
+
+form {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 40vw;
+}
+
+.mailerStripe {
+  display: flex;
+  padding-top: 30px;
+  margin: auto;
+  padding-right: 5vw;
+}
+
+.payment {
+  padding-right: 200px;
+}
+
+.ptCal {
+  height: 80vh;
+  width: 80vw;
+  margin: auto;
+  padding-top: 6vh;
+  padding-bottom: 14vh;
+}
+
+.ptQuizAgainText {
+  font-size: 1.2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 4vh;
+  margin-top: 3vh;
+  text-align: center;
+  color: rgb(89, 87, 87);
+  letter-spacing: 1px;
+}
+
+.ptQuizAgain {
+  margin: auto;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(89, 87, 87);
+  text-decoration: none;
+  text-align: center;
+}
+
+.ptQuizAgain:hover {
+  color: #f7941d;
+}
+
+.ptQuizAgainDiv {
+  margin: auto;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid;
+  border-bottom-color: rgb(89, 87, 87);
+  border-bottom-width: 1px;
+  padding-bottom: 6vh;
+}
+
+.ptCalAvail {
+  margin: auto;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(89, 87, 87);
+  text-decoration: none;
+  text-align: center;
+  padding-bottom: 8vh;
+}
+
+.example button {
+  height: 6vh;
+  width: 10vw;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(89, 87, 87);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.example button:hover {
+  background-color: rgb(247, 148, 29);
+  cursor: pointer;
+}
+
+.btn {
+  height: 6vh;
+  width: 10vw;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(89, 87, 87);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 3vh;
+}
+
+.btn:hover {
+  background-color: rgb(247, 148, 29);
+  cursor: pointer;
+}
+
+.formTitleTT {
+  font-size: 0.8em;
+  font-weight: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  visibility: hidden;
+  width: 320px;
+  background-color: rgb(89, 87, 87);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 10px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -170px;
+}
+
+.formTitle:hover {
+  color: rgb(247, 148, 29);
+  cursor: pointer;
+}
+
+.formTitle:hover .formTitleTT {
+  visibility: visible;
+}

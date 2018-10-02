@@ -1,0 +1,32 @@
+.App {
+  /* text-align: center; */
+  background-color: rgb(255, 255, 255);
+}
+
+/* .App button:hover {
+  background-color: rgb(247, 148, 29);
+  cursor: pointer;
+} */
+
+.App button:focus {
+  outline: none;
+}
+
+/* .App button {
+  height: 6vh;
+  width: 10vw;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: rgb(89, 87, 87);
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+.App input:focus {
+  outline: none;
+}
+
+.App textarea:focus {
+  outline: none;
+}

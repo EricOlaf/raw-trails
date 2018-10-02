@@ -1,0 +1,74 @@
+.quizTotal {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 85vh;
+}
+
+.QuestionsTitle {
+  width: 60vw;
+  font-size: 1.3em;
+  font-family: serif;
+  margin: 20px;
+  text-align: center;
+  color: rgb(89, 87, 87);
+  margin: auto;
+  padding-top: 40px;
+  letter-spacing: 1.1px;
+}
+
+.QuestionsHeader {
+  font-size: 2.3em;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(89, 87, 87);
+  padding-top: 40px;
+}
+
+.questions {
+  margin-top: 30px;
+  display: flex;
+  margin: auto;
+}
+
+.questionOne {
+  padding: 30px;
+  margin: auto;
+  letter-spacing: 1px;
+}
+.questionTwo {
+  padding: 30px;
+  margin: auto;
+  letter-spacing: 1px;
+}
+
+.question {
+  font-size: 1.3em;
+  font-family: serif;
+  text-align: center;
+  color: rgb(89, 87, 87);
+  padding-top: 3vh;
+  letter-spacing: 1px;
+}
+
+.quizPic {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.quizPic:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.emptySpace {
+  height: 20vh;
+}
+
+.qone {
+  position: relative;
+  width: 340px;
+  height: 190px;
+  overflow: hidden;
+}

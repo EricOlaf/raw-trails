@@ -1,0 +1,138 @@
+.wholeHome {
+  display: flex;
+  flex-direction: column;
+}
+
+.homeTextOne {
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 10vh;
+  margin: 20px;
+  text-align: center;
+  color: rgb(89, 87, 87);
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+}
+
+.homeTextTwo {
+  font-size: 1em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 25px;
+  text-align: center;
+  color: rgb(89, 87, 87);
+  letter-spacing: 2px;
+}
+
+.overlayOff {
+  display: none; /* Hidden by default */
+}
+
+.overlayOn {
+  position: fixed; /* Sit on top of the page content */
+  display: block; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(89, 87, 87, 0.95); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+.overlayText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.overHome {
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(89, 87, 87);
+  /* border-style: solid;
+  border-color: rgb(89, 87, 87);
+  border-width: 1px;
+  padding: 10px;
+  border-radius: 20px; */
+}
+
+.overHome:hover {
+  cursor: pointer;
+  color: rgb(247, 148, 29);
+  /* background-color: rgb(89, 87, 87); */
+}
+
+.overlayTextTitle {
+  font-size: 4em;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.overlayTextText {
+  font-size: 1.6em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px;
+}
+
+.adventureLink {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(89, 87, 87);
+  text-decoration: none;
+  /* border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-width: 1px;
+  padding: 10px;
+  border-radius: 20px; */
+}
+
+.adventureLink:hover {
+  cursor: pointer;
+  color: rgb(247, 148, 29);
+  /* background-color: rgb(89, 87, 87); */
+}
+
+.overlayAndQuiz {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 15vh;
+  padding-top: 10vh;
+  width: 80vw;
+  margin: auto;
+}
+
+.totyDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tripsOfTheYear {
+  width: 60vw;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 15vh;
+  text-align: center;
+  color: rgb(89, 87, 87);
+  border-bottom: solid;
+  border-bottom-color: rgb(89, 87, 87);
+  border-bottom-width: 1px;
+  padding-bottom: 15vh;
+  letter-spacing: 0.7px;
+}
+
+.tripsOfTheYear:hover {
+  cursor: pointer;
+  color: rgb(97, 160, 214);
+}

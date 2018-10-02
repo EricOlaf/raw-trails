@@ -1,0 +1,203 @@
+.wholeReview {
+  width: 65vw;
+  margin: auto;
+  position: relative;
+}
+.reviewText {
+  width: 40vw;
+}
+
+.reviewsText {
+  font-size: 2.2em;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(89, 87, 87);
+  padding-bottom: 12vh;
+}
+
+.reviewCard {
+  margin-bottom: 9vh;
+  padding-bottom: 2vh;
+  font-family: serif;
+  color: rgb(89, 87, 87);
+  border-color: rgb(182, 182, 182);
+  border-bottom-style: solid;
+  border-width: 2px;
+}
+
+.newReview {
+  width: 40vw;
+  height: 30vh;
+  margin-bottom: 1px;
+  font-size: 20px;
+  color: rgb(89, 87, 87);
+}
+
+.newReview:focus {
+  outline: none;
+}
+
+.taCR {
+  font-family: serif;
+  color: rgb(89, 87, 87);
+  margin-bottom: 5vh;
+}
+
+/* .reviewPic {
+  height: 30vh;
+  padding-top: 5vh;
+} */
+
+.reviewPic:hover {
+  opacity: 0.95;
+}
+
+.reviewTextPic {
+  display: flex;
+}
+
+.loginToReview {
+  text-align: center;
+}
+
+.loginText {
+  color: rgb(89, 87, 87);
+  font-size: 1.7em;
+  font-weight: bold;
+  padding-bottom: 4vh;
+}
+
+.loginButton {
+  height: 6vh;
+  width: 10vw;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: rgb(89, 87, 87);
+  border-radius: 5px;
+  margin-bottom: 10vh;
+  cursor: pointer;
+}
+
+.writeReview {
+  text-align: center;
+}
+.writeReviewText {
+  color: rgb(89, 87, 87);
+  font-size: 1.7em;
+  font-weight: bold;
+  padding-bottom: 4vh;
+  border-radius: 5px;
+}
+
+.newReviewButton {
+  height: 6vh;
+  width: 10vw;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: rgb(89, 87, 87);
+  border-radius: 5px;
+  margin: 5vw;
+}
+
+.newReviewButton:hover {
+  cursor: pointer;
+}
+
+.uploadPicText {
+  color: rgb(89, 87, 87);
+  font-size: 1.7em;
+  font-weight: bold;
+  padding-bottom: 3vh;
+}
+
+.newPicInput {
+  width: 40vw;
+  height: 22px;
+  font-size: 15px;
+  margin-bottom: 1vh;
+}
+
+.deleteReviewButton {
+  height: 5vh;
+  width: 9vw;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: rgb(89, 87, 87);
+  border-radius: 5px;
+}
+
+.updateReviewButton {
+  height: 5vh;
+  width: 9vw;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: rgb(89, 87, 87);
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.subtmitUR {
+  display: flex;
+  flex-direction: column;
+}
+
+.urText {
+  width: 30vw;
+  font-size: 1em;
+  margin-bottom: 2vh;
+}
+
+.urSubmitButton {
+  height: 5vh;
+  width: 8.5vw;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: rgb(89, 87, 87);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.soloSlider:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.reviewText h2 {
+  width: 35vw;
+}
+
+.reviewPicDiv {
+  vertical-align: middle;
+}
+
+.reviewPic {
+  vertical-align: middle;
+}
+
+.wholeReview button:hover {
+  background-color: rgb(247, 148, 29);
+  cursor: pointer;
+}
+
+.reviewerOnCard {
+  font-family: sans-serif;
+  font-size: 1.3em;
+  /* font-weight: normal; */
+  letter-spacing: 0.8px;
+}
+
+.reviewOnCard {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+  letter-spacing: 0.7px;
+  font-size: 1.2em;
+}
+
+.dateOnCard {
+  font-size: 1.15em;
+}

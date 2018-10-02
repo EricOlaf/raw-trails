@@ -1,0 +1,124 @@
+.aboutTextPic {
+  display: flex;
+  margin-left: 15vw;
+  padding-bottom: 40px;
+}
+.aboutTitleText {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  padding-top: 10vh;
+}
+.aboutUsTitle {
+  font-size: 2.4em;
+  font-weight: bold;
+  margin: 20px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: rgb(89, 87, 87);
+  line-height: 1.4;
+}
+
+.aboutTitle {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px;
+  padding-top: 10px;
+  text-align: center;
+  color: rgb(89, 87, 87);
+  line-height: 1.4;
+}
+
+.aboutText {
+  font-size: 1.4em;
+  font-family: serif;
+  color: rgb(89, 87, 87);
+  line-height: 2;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.aboutPic {
+  height: 50vh;
+  margin-left: 5vw;
+  margin-top: 13vh;
+}
+
+.etPicOne {
+  height: 50vh;
+}
+
+.etPicTwo {
+  height: 70vh;
+}
+
+.etPicThree {
+  height: 50vh;
+}
+
+.exampleTrip {
+  display: flex;
+  width: 80vw;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.etTitle {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(89, 87, 87);
+  line-height: 1.4;
+  margin: 30px;
+}
+
+.etText {
+  font-size: 1.4em;
+  font-family: serif;
+  color: rgb(89, 87, 87);
+  line-height: 2;
+  text-align: left;
+  /* width: 30vw; */
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.founderPicContainer {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.joshPic {
+  display: inline;
+  width: auto;
+  height: 100%;
+}
+
+.joshTitleText {
+  width: 30vw;
+}
+
+.aboutTotal img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.exampleTrip {
+  margin-top: 8vh;
+}
+
+.etBot {
+  margin-bottom: 10vh;
+}
+
+.etOne {
+  line-height: 1.6;
+}
+
+.josh {
+  padding-bottom: 8vh;
+}

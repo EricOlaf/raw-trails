@@ -1,0 +1,13 @@
+.videoContainer {
+  max-width: 65vw;
+  margin: auto;
+}
+
+.videoContainer:hover {
+  opacity: 0.98;
+  cursor: pointer;
+}
+
+.video-react:focus {
+  outline: none;
+}

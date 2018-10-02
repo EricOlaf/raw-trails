@@ -1,0 +1,111 @@
+.ptImgOneYo {
+  background-image: url("https://res.cloudinary.com/rawtrails801/image/upload/v1532986435/RawTrails/i-88ZTPhL-X2.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.ptImgOneWordBoxYo {
+  display: flex;
+  height: 20vh;
+  width: 42vh;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.ptOneTitle {
+  font-size: 3.3em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: rgb(89, 87, 87);
+}
+
+.ptOneDate {
+  font-size: 1em;
+
+  color: rgb(89, 87, 87);
+}
+
+.ptDescContainer {
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 10vh;
+}
+
+.ptDescTitle {
+  font-size: 2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: rgb(89, 87, 87);
+  text-align: center;
+  padding-top: 6vh;
+  margin: 3vh;
+}
+
+.ptDescText {
+  font-size: 1.4em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(89, 87, 87);
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-bottom: 2vh;
+}
+
+/* IMAGE TWO */
+
+.ptImgTwoYo {
+  background-image: url("https://res.cloudinary.com/rawtrails801/image/upload/v1532984890/sample.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* GOOGLE MAPS */
+
+.ptGooMapsContainer {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newGooM {
+  height: 70vh;
+  width: 70vw;
+}
+
+/* IMAGE THREE */
+
+.ptImgThreeYo {
+  background-image: url("https://res.cloudinary.com/rawtrails801/image/upload/v1532986431/RawTrails/DSC_5769.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weatherContainer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}

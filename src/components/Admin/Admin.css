@@ -1,0 +1,152 @@
+.adminTotal {
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  display: flex;
+  width: 80vw;
+}
+
+.adminPageTitle {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px;
+  margin-top: 50px;
+  text-align: center;
+  color: rgb(89, 87, 87);
+}
+
+.geardiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.gearcard {
+  margin-left: 150px;
+  margin-bottom: 5vh;
+  width: 40vw;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(89, 87, 87);
+  border-width: 1px;
+  padding-bottom: 5px;
+}
+
+.gearnamecon {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.gearname {
+  position: relative;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(89, 87, 87);
+}
+.gearname:hover {
+  color: rgb(247, 148, 29);
+  cursor: pointer;
+}
+
+.gearname:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltiptext {
+  visibility: hidden;
+
+  width: 75px;
+  background-color: rgb(89, 87, 87);
+  color: whitesmoke;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+  font-size: 0.7em;
+}
+
+.gearcon {
+  font-size: 1.4em;
+  font-family: serif;
+  color: rgb(89, 87, 87);
+}
+.geardesc {
+  font-size: 1.2em;
+  font-family: serif;
+  color: rgb(89, 87, 87);
+}
+
+.gearta {
+  width: 300px;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  font-family: serif;
+  color: rgb(89, 87, 87);
+  border-color: rgb(89, 87, 87);
+}
+
+.adminTitle {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(89, 87, 87);
+  margin-bottom: 10px;
+}
+
+.bookSection {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputsideTotal button {
+  height: 5vh;
+  width: 8.5vw;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: rgb(89, 87, 87);
+  border-radius: 5px;
+  margin: auto;
+}
+
+.inputsideTotal input {
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  font-family: serif;
+  color: rgb(89, 87, 87);
+}
+
+.gearConInput {
+  display: flex;
+  flex-direction: column;
+}
+.calDiv {
+  width: 55vw;
+  height: 80vh;
+  padding-left: 5vw;
+  padding-bottom: 12vh;
+}
+
+.gearTitleDivContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.adminGearTitle {
+  font-size: 2.2em;
+  font-weight: bold;
+  color: rgb(89, 87, 87);
+  text-align: center;
+  padding-bottom: 5vh;
+}
+
+.adminTotal button:hover {
+  cursor: pointer;
+  background-color: rgb(247, 148, 29);
+}

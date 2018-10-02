@@ -1,0 +1,52 @@
+.soloSlider {
+  height: 20vh;
+  margin: auto;
+}
+
+.picCarWhole {
+  height: 30vh;
+  width: 73.3vw;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.arrowLeft {
+  height: 3vh;
+  position: absolute;
+  transform: rotate(180deg);
+  top: 25.5vh;
+  left: -1vw;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.arrowRight {
+  height: 3vh;
+  position: absolute;
+  top: 25.5vh;
+  right: -1vw;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.sliderimg {
+  margin: auto;
+}
+
+.sliderimg:focus {
+  outline: 0;
+}
+
+.sliderimg:hover {
+  opacity: 95;
+}
+
+.sliderPic:focus {
+  outline: none;
+}
+
+.sliderPic:hover {
+  opacity: 95;
+}

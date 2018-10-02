@@ -1,0 +1,14 @@
+.locaPin {
+  height: 8vh;
+  width: 3vw;
+}
+.pinDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+  flex-direction: column;
+  align-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.6em;
+}

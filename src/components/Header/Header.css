@@ -1,0 +1,86 @@
+.header {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  padding-left: 13px;
+  padding-top: 13px;
+}
+
+.links {
+  display: none;
+}
+.menuButton {
+  display: block;
+  background-color: rgb(247, 148, 29);
+  margin: 20px;
+  border-radius: 5px;
+}
+.dropLinks {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: rgb(89, 87, 87);
+}
+
+@media (min-width: 800px) {
+  .menuButton {
+    display: none;
+  }
+  .links {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 15px;
+  }
+  .link {
+    margin-right: 30px;
+    text-decoration: none;
+    /* font-weight: bold; */
+    color: rgb(89, 87, 87);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    letter-spacing: 1.3px;
+    font-size: 0.9em;
+  }
+
+  .link:hover {
+    color: rgb(247, 148, 29);
+  }
+
+  .dropLinks {
+    display: none;
+  }
+}
+
+.linkButton {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 0.8px;
+  height: 35px;
+  width: 130px;
+  border-style: solid;
+  border-color: rgb(89, 87, 87);
+  border-radius: 40px;
+  border-width: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -11px;
+}
+
+.hashLink {
+  margin: auto;
+  letter-spacing: 1.5px;
+}
+
+.linkButton:hover {
+  background-color: rgb(89, 87, 87);
+  color: rgb(255, 255, 255);
+}
+.hashLink:hover {
+  background-color: rgb(89, 87, 87);
+  color: rgb(255, 255, 255);
+}
