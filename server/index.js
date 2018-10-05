@@ -108,7 +108,7 @@ app.get(
 );
 
 app.get("/api/me", getUser);
-app.get("/logout", logout);
+app.get("/api/logout", logout);
 
 app.get("/api/plantrip", (req, res) => {
   if (req.user) res.status(200).json(req.user);
