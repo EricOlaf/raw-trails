@@ -22,7 +22,7 @@ const getUser = (req, res) => {
 
 const logout = (req, res) => {
   req.session.destroy(() => {
-    res.redirect("http://localhost:3000/#/");
+    res.redirect("http://206.189.220.112:3005/#/");
   });
 };
 
