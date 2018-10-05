@@ -179,7 +179,7 @@ class Reviews extends Component {
           >
             submit
           </button>
-          <a href="http://localhost:3005/logout">
+          <a href="http://206.189.220.112:3005/logout">
             <button
               className="newReviewButton"
               // onClick={() => this.logoutHandler()}
