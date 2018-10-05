@@ -103,7 +103,7 @@ app.get(
     failureRedirect: "/login"
   }),
   (req, res) => {
-    res.redirect(`http://localhost:3000/#${myPath}`);
+    res.redirect("http://206.189.220.112:3005/#/");
   }
 );
 

@@ -11,7 +11,9 @@ class Home extends Component {
   constructor() {
     super();
     this.state = {
-      overlay: "overlayOff"
+      overlay: "overlayOff",
+      videoOn: "no",
+      imgOn: "true"
     };
   }
 
@@ -26,15 +28,35 @@ class Home extends Component {
   off = () => {
     this.setState({ overlay: "overlayOff" });
   };
+
+  videoHandler = () => {
+    this.setState({ videoOn: "yes", imgOn: "false" });
+  };
+
+  imgHandler = () => {
+    this.setState({ videoOn: "no", imgOn: "true" });
+  };
+
   render() {
     return (
       <div className="wholeHome">
-        <div>
-          <div className="homeTextOne">raw trails</div>
-          <div className="homeTextTwo">INSPIRING A LIFE OF ADVENTURE</div>
+        <div className="homePageTitles">
+          <div className="homeTextOne" onClick={() => this.videoHandler()}>
+            raw trails
+          </div>
+          <div className="homeTextTwo" onClick={() => this.imgHandler()}>
+            INSPIRING A LIFE OF ADVENTURE
+          </div>
         </div>
         <div className="homePic">
-          <Video />
+          <div className={this.state.videoOn}>
+            <Video />
+          </div>
+          <img
+            src="https://res.cloudinary.com/rawtrails801/image/upload/v1532986406/RawTrails/DSC_0299.jpg"
+            className={this.state.imgOn}
+          />
+
           <PicCar />
           <div className="overlayAndQuiz">
             <div>
